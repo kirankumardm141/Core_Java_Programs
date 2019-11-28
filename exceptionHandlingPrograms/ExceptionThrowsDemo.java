@@ -2,14 +2,11 @@ package exceptionHandlingPrograms;
 
 public class ExceptionThrowsDemo {
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws ArithmeticException{
 		// TODO Auto-generated method stub
 
-		for (int i = 3; i <= 30; i = i + 3) {
-			System.out.println("The Value of i :" + i);
-			Thread.sleep(1000);
-		}
-
+			int a=10,b=0;
+			System.out.println("Div by Zero :"+a/b);
 	}
 
 }

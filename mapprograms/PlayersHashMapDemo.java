@@ -32,6 +32,7 @@ public class PlayersHashMapDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner sc=null;
 		try {
 
 			BufferedReader br = new BufferedReader(new FileReader("D:\\WorkSpace\\Players.txt"));
@@ -51,9 +52,10 @@ public class PlayersHashMapDemo {
 
 			System.out.println(map);
 
-			Scanner sc = new Scanner(System.in);
+			sc = new Scanner(System.in);
 			System.out.println("Enter Team Name:");
 			String teamName = sc.next();
+			// sc.close();
 
 			List<Players> obj = map.get(teamName);
 			System.out.println(obj);
@@ -64,6 +66,10 @@ public class PlayersHashMapDemo {
 			// TODO: handle exception
 			e.printStackTrace();
 		}
+		finally {
+			sc.close();
+		}
+		
 	}
 
 }

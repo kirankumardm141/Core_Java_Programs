@@ -10,11 +10,11 @@ public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Main Method");
-		
-		Test obj = new Test();
-		
-		System.out.println("Public Modifier "+obj.a+" Protected Modifier "+obj.b+" Default Modifier "+obj.c+" Private Modifier "+obj.d);
+//		System.out.println("Main Method");
+//		
+//		Test obj = new Test();
+//		
+//		System.out.println("Public Modifier "+obj.a+" Protected Modifier "+obj.b+" Default Modifier "+obj.c+" Private Modifier "+obj.d);
 
 		subclass.m1();
 	}

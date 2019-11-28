@@ -20,12 +20,12 @@ class HDFC extends Bank {
 public class main {
 
 	public static void main(String[] args) {
+//	  static{
 		// TODO Auto-generated method stub
 
 		// Creating Parent Reference
 		Bank obj = new SBI();
 		System.out.println("SBI's Rate of Interest : " + obj.getROI());
-		// Creating Parent Reference
 		Bank obj1 = new HDFC();
 		System.out.println("HDFC's Rate of Interest : " + obj1.getROI());
 

@@ -37,7 +37,7 @@ public class EncapsulationDemo {
 		int id = obj.getID();
 		String name = obj.getName();
 		String addr = obj.getAddr();
-		System.out.println("ID : " + id + " Name: " + obj.getName() + " Address: " + obj.addr);
+		System.out.println("ID : " + id + " Name: " + name + " Address: " + addr);
 		for (int i = 0; i <= 10; i++) {
 			try {
 				Thread.sleep(1000);

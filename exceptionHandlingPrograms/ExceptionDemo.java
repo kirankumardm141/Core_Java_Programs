@@ -8,6 +8,8 @@ public class ExceptionDemo {
 			for (int i = 10; i <= 100; i = i + 10) {
 				System.out.println("The Value if i :" + i);
 				Thread.sleep(1000);
+				Thread.currentThread().interrupt();
+				System.out.println("Boolean Value :"+Thread.interrupted());
 			}
 		} 
 		catch(InterruptedException s)
